@@ -1,1 +1,1 @@
-class Train(number: Int)
+class Train(val number: Int, val kind: String)
