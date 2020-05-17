@@ -1,6 +1,6 @@
-promote-class-parameters
+define-a-field
 
-# Exercise 3 > Promote class parameters
+# Exercise 4 > Define a Field
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
