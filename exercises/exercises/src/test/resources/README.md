@@ -1,6 +1,6 @@
-define-a-companion-object
+check-preconditions
 
-# Exercise 9 > Define a Companion Object
+# Exercise 10 > Check Preconditions
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
