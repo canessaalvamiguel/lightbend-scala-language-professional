@@ -1,6 +1,6 @@
-define-an-operator
+use-default-arguments
 
-# Exercise 6 > Define an Operator
+# Exercise 7 > Use Default Arguments
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
