@@ -1,6 +1,6 @@
-use-packages
+define-a-companion-object
 
-# Exercise 8 > Use Packages
+# Exercise 9 > Define a Companion Object
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
