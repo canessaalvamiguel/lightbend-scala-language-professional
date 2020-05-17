@@ -1,6 +1,6 @@
-define-a-method
+define-an-operator
 
-# Exercise 5 > Define a Method
+# Exercise 6 > Define an Operator
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
