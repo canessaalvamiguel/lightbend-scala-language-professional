@@ -1,6 +1,6 @@
-use-default-arguments
+use-packages
 
-# Exercise 7 > Use Default Arguments
+# Exercise 8 > Use Packages
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 

@@ -1,3 +1,5 @@
+package com.lightbend.training.scalatrain
+
 class Time(val hours: Int = 0, val minutes: Int = 0){
     //TODO: Verify that hours is within 0 and 23
     //TODO: comment: Verify that minutes is within 0 and 59
