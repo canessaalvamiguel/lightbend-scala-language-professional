@@ -1,6 +1,6 @@
 package com.lightbend.training.scalatrain
 
-class Time(val hours: Int = 0, val minutes: Int = 0){
+case class Time(hours: Int = 0, minutes: Int = 0){
     //TODO: Verify that hours is within 0 and 23
     //TODO: comment: Verify that minutes is within 0 and 59
 
@@ -20,6 +20,6 @@ object Time{
         val hours = m / 60
         val minutes = m % 60
         
-        new Time(hours, minutes)
+        Time(hours, minutes)
     }
 }

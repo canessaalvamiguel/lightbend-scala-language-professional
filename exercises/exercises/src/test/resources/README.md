@@ -1,6 +1,6 @@
-check-preconditions
+define-case-classes
 
-# Exercise 10 > Check Preconditions
+# Exercise 11 > Define Case Classes
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
