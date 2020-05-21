@@ -1,6 +1,6 @@
-define-case-classes
+tests
 
-# Exercise 11 > Define Case Classes
+# Exercise 12 > Group Exercise: Tests
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
