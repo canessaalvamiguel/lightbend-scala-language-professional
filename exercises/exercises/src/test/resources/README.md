@@ -1,6 +1,6 @@
-use-a-sequence
+use-map
 
-# Exercise 13 > Use a Sequence
+# Exercise 14 > Use map
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
