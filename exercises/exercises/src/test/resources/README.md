@@ -1,6 +1,6 @@
-use-map
+use-flatmap
 
-# Exercise 14 > Use map
+# Exercise 15 > Use flatMap
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
