@@ -1,6 +1,6 @@
-use-filter
+use-for-expressions
 
-# Exercise 16 > Use filter
+# Exercise 17 > Use for-expressions
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 

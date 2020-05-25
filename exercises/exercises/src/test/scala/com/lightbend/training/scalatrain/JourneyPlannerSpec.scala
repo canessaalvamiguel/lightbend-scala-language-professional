@@ -22,4 +22,10 @@ class JourneyPlannerSpec extends AnyWordSpec with Matchers {
       planner.trainsAt(cologne) shouldEqual Set(ice724)
     }
   }
+
+  "Calling stopsAt" should {
+    "return the correct stops" in {
+      planner.stopsAt(munich) shouldEqual Set(ice724MunichTime -> ice724, ice726MunichTime -> ice726)
+    }
+  }
 }
