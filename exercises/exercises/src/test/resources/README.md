@@ -1,6 +1,6 @@
-define-an-adt
+use-a-trait
 
-# Exercise 19 > Define an ADT
+# Exercise 20 > Use a Trait
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
