@@ -40,4 +40,10 @@ class TimeSpec extends AnyWordSpec with Matchers {
       Time(1, 40) - Time(1, 10) shouldEqual 30
     }
   }
+
+  "Calling toString" should {
+    "return a properly formatted string representation" in {
+      Time(9, 30).toString shouldEqual "09:30"
+    }
+  }
 }

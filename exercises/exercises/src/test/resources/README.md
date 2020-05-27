@@ -1,6 +1,6 @@
-use-for-expressions
+override_tostring
 
-# Exercise 17 > Use for-expressions
+# Exercise 18 > Override toString
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
