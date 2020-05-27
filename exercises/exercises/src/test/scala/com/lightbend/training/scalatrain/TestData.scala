@@ -27,14 +27,12 @@ object TestData {
   val ice726CologneTime = Time(13, 2)
 
   val ice724 = Train(
-    "ICE",
-    724,
+    InterCityExpress(724),
     Vector(ice724MunichTime -> munich, ice724NurembergTime -> nuremberg, ice724CologneTime -> cologne)
   )
 
   val ice726 = Train(
-    "ICE",
-    722,
+    InterCityExpress(726),
     Vector(ice726MunichTime -> munich, ice726NurembergTime -> nuremberg, ice726CologneTime -> essen)
   )
 

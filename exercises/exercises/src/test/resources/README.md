@@ -1,6 +1,6 @@
-override_tostring
+define-an-adt
 
-# Exercise 18 > Override toString
+# Exercise 19 > Define an ADT
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
