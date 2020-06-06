@@ -1,6 +1,6 @@
-use-match-expressions
+use-patterns
 
-# Exercise 21 > Use Match Expressions
+# Exercise 22 > Group exercise: Use Patterns
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
