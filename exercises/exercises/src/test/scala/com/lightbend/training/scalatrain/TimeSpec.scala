@@ -6,8 +6,28 @@ package com.lightbend.training.scalatrain
 
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
+import play.api.libs.json.{JsNumber, JsObject}
 
 class TimeSpec extends AnyWordSpec with Matchers {
+
+  "Calling fromJson" should {
+    "return None for an invalid JSON object" in {
+      Time fromJson JsObject(Seq()) shouldBe None
+    }
+    "return Some wrapping a properly initialized Time for a valid JSON object" in {
+      Time fromJson JsObject(Seq("hours" -> JsNumber(9), "minutes" -> JsNumber(30))) shouldEqual Some(Time(9, 30))
+    }
+    "return Some wrapping a properly initialized Time for a valid JSON object with hours only" in {
+      Time fromJson JsObject(Seq("hours" -> JsNumber(9))) shouldEqual Some(Time(9, 0))
+    }
+  }
+
+  "Calling fromJson after toJson" should {
+    "return Some wrapping the original Time" in {
+      val time = Time(9, 30)
+      (Time fromJson time.toJson) shouldEqual Some(time)
+    }
+  }
 
   "Creating a Time" should {
     "throw an IllegalArgumentException for hours not within 0 and 23" in {

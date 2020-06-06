@@ -1,6 +1,6 @@
-use-option
+use-try
 
-# Exercise 23 > Use Option
+# Exercise 24 > Use Try
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
