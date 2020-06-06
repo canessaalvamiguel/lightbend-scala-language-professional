@@ -1,6 +1,6 @@
-use-patterns
+use-option
 
-# Exercise 22 > Group exercise: Use Patterns
+# Exercise 23 > Use Option
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
