@@ -1,6 +1,6 @@
-use-a-trait
+use-match-expressions
 
-# Exercise 20 > Use a Trait
+# Exercise 21 > Use Match Expressions
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 

@@ -19,7 +19,7 @@ class TrainSpec extends AnyWordSpec with Matchers {
 
   "stations" should {
     "be initialized correctly" in {
-      ice724.stations shouldEqual Vector(munich, nuremberg, cologne)
+      ice724.stations shouldEqual Vector(munich, nuremberg, frankfurt, cologne)
     }
   }
 }
